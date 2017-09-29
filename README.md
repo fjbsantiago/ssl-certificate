@@ -3,7 +3,7 @@
 ## Create certificate
 
 ```
-$ openssl req -­x509 -nodes -­days 365 -­newkey rsa:1024 -­keyout mykey.key -­out mycert.cert
+$ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.cert
 ```
 
 - **openssl:** This is the basic command line tool for creating and managing OpenSSL certificates, keys, and other files.
